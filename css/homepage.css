@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0; 
+}  
+
+.container{
+    width: 95%; 
+    margin: auto;
+    background-color: white;  
+}
+.headerSection {
+    display: flex; 
+    justify-content: space-between; 
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+} 
+
+.headerSection img{
+    width: 85px;
+}
+
+.headerSection ul li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+} 
+.headerSection ul li a {
+    text-decoration: none; 
+    color: black;
+}  
+.active{
+    border-bottom: 1px solid #212540; 
+}
+.heroSection {
+    background: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.685)),url("../images/headerbg.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 300px; 
+    padding: 50px;
+    display: flex; 
+    justify-content: space-between;
+}  
+.heroSection h2{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    width: 350px;
+    margin-top: 25px;
+} 
+.heroSection span{
+    color: yellow; 
+} 
+.heroSection p{
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    width: 300px;
+    text-align: left;
+    margin-top: 10px;
+} 
+.heroSection button{
+    border: none; 
+    border-radius: 10px;
+    width: 150px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 20px; 
+    font-family: 'Poppins', sans-serif;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+} 
+.heroSection img{
+    width: 980px;
+    margin-top: -40px;
+    margin-left: 5%;
+    height: 390px;
+}  
+.whoWeAreSection {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 15px; 
+    padding: 20px;
+    width: 95%; 
+    margin: auto; 
+}  
+.whoWeAreSection img{
+    width: 500px;
+    height: 320px;
+}
+.whatWeDoContent {
+    margin-left: 2%; 
+}
+
+.whatWeDoContent h2{
+    font-family: 'Inter', sans-serif;
+    width: 400px;
+} 
+.whatWeDoContent p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+} 
+.whatWeDoContent a{
+    text-decoration: none; 
+    color: red; 
+    font-weight: bold; 
+} 
+.statusSection{
+    background-color: #212540;
+    font-family: 'Inter', sans-serif;
+    color: white; 
+    display: grid; 
+    grid-template-columns: repeat(4,20%);
+    padding: 25px; 
+    justify-content: center;
+} 
+.statusContent h4{
+    text-align: center; 
+    font-size: 40px;
+} 
+.statusContent p{
+    text-align: center; 
+    text-transform: uppercase; 
+    margin-top: 2px;
+}  
+.serviceContent h3{
+    font-family: 'Inter', sans-serif; 
+    font-size: 30px;
+    text-transform: uppercase; 
+    text-align: center;
+    margin-top: 15px;
+} 
+.serviceContent p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+}  
+.cardSection {
+    display: grid;
+    grid-template-columns: repeat(3,27%);
+    margin-left: 20%;
+}  
+.cardOne .headingTwo{
+    margin-left: 50px;
+}
+.cardOne {
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    padding: 30px;
+    width: 250px;
+}
+.cardOne i{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 90px;
+} 
+.cardOne h5{
+    font-size: 23px; 
+    font-family: 'Inter', sans-serif; 
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 10px;
+} 
+.cardOne p{
+    font-family: 'Poppins', sans-serif; 
+    width: 200px;
+    text-align: center;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-top: 8px;
+} 
+.footerSection{
+    background-color: #212540; 
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+} 
+.footerContent{
+    width: 95%; 
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,25%); 
+}
+.footerOne h5, .footerTwo h5, .footerThree h5, .footerFour h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}  
+.footerOne img{
+    margin-top: 10px; 
+}
+ 
+.footerOne p, .footerFour p{
+    font-family: 'Poppins', sans-serif;
+    width: 250px; 
+    font-size: 15px;
+    margin-top: 15px;
+} 
+.footerTwo ul li, .footerThree ul li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 15px;
+}  
+.footerFour input {
+    margin-top: 15px; 
+    width: 200px;
+    padding: 5px;
+}  
+.inputBox{
+    display: flex; 
+} 
+.inputBox .button{
+    background-color: yellow; 
+    color: black; 
+    width: 60px;
+    padding: 5px; 
+    margin-left: 5px; 
+} 
+
+.inputBox a{
+    text-decoration: none; 
+    color: black;
+}
+.copyRightsSection {
+    background-color: white; 
+    display: flex; 
+    justify-content: space-between; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: bolder;
+    padding: 10px;
+    width: 95%; 
+    margin: auto; 
+} 
+.copyRightsSection i{
+    margin-right: 2px;
+}  
+
+/*Code For Mobile Responsive*/
+
+@media screen and (max-width : 500px) {  
+    .headerSection img{
+        width: 50px;
+        margin-top: 10px;
+    }
+    .headerSection ul li{
+        font-size: 10px;
+    }  
+    .heroSection{
+        height: 150px;
+        width: 320px;
+    }
+    .heroImage{
+        display: none; 
+    } 
+    .heroSection h2{
+        font-size: 18px; 
+        margin-left: 28px;
+    } 
+    .heroSection p{
+        font-size: 10px;
+        text-align: center;
+        margin-left: 13px;
+    } 
+    .heroSection button{
+        font-size: 15px; 
+        padding: 5px;
+        margin-left: 88px;
+    } 
+    .whoWeAreSection{
+        display: block;
+    } 
+    .whoWeAreSection img{
+        width: 350px;
+        height: 250px; 
+    } 
+    .whatWeDoContent{
+        margin-left: -5px;
+    } 
+    .whatWeDoContent h2{
+        font-size: 20px;
+        width: 350px;
+        margin-top: 20px;
+    }
+    .whatWeDoContent p{
+        font-size: 12px;
+        width: 350px;
+    } 
+    .statusSection{
+        padding: 15px; 
+    }
+    .statusContent h4{
+        font-size: 20px;
+    } 
+    .statusContent p{
+        font-size: 8px; 
+    }  
+    .serviceContent p{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .cardSection{
+        display: block;
+    } 
+    .cardOne{
+        margin-left: -100px; 
+    } 
+    .footerContent{
+        display: block; 
+    } 
+    .footerTwo h5, .footerThree, .footerFour h5{
+        margin-top: 20px;
+    }  
+    
+    .copyRightsSection{
+        font-size: 10px;
+        padding: 5px;
+    }
+} /*Code For Mobile Responsive Ends*/
+
+/*Code for tab responsive*/
+@media (min-width : 700px) and (max-width : 851px) {
+    .heroImage{
+        display: none; 
+    }  
+    .heroSection{
+        height: 230px;
+    }
+    .heroSection h2{
+        margin-left: 180px;
+    } 
+    .heroSection p{
+        margin-left: 180px;
+        text-align: center;
+        width: 350px;
+    } 
+    .heroSection button{
+        margin-left: 280px;
+    } 
+    .whoWeAreSection img{
+        width: 350px;
+    } 
+    .whatWeDoContent p{
+        font-size: 12px;
+    }  
+    .statusSection{
+        padding: 25px;
+    }
+    .statusContent p{
+        font-size: 13px;
+    } 
+    .cardSection{
+        display: flex; 
+        justify-content: space-evenly; 
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }  
+    .footerSection{
+        display: flex; 
+        flex-direction: column;
+    }  
+    .footerTwo h5, .footerThree h5, .footerFour h5{
+        margin-top: 25px;
+    } 
+    .copyRightsSection{
+        padding: 10px;
+    }
+} /*Code for tab responsive Ends*/
+
+

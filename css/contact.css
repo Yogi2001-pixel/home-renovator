@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.active {
+    border-bottom: 1px solid #212540;
+}
+
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    width: 95%; 
+    margin: auto; 
+}
+
+.headerSection img {
+    width: 85px;
+}
+
+.headerSection ul li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.headerSection ul li a {
+    text-decoration: none;
+    color: black;
+}
+.heroSection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.685)),url("../images/cardimagefour.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    height: 150px;
+    color: white;
+}
+
+.heroSection h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.heroSection p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.heroSection span {
+    color: yellow;
+}  
+.contactUsSection{
+    display: flex; 
+    gap: 2%; 
+    /* justify-content: space-between; */
+    padding: 30px;
+    width: 95%; 
+    margin: auto    ;
+}
+.contactUsSection h1{
+    font-family: 'Inter', sans-serif;
+}
+.contactUsSection p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+} 
+.contactImage img{
+    height: 500px;
+} 
+form{
+    display: flex;  
+    flex-direction: column; 
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px; 
+}  
+form label {
+    margin-top: 10px;
+}
+.contactUsSection input{
+    padding: 16px; 
+    margin-top: 5px;
+    width: 510px; 
+} 
+.textarea{
+    height: 100px;
+} 
+.contactForm{
+   margin-left: 30px;
+} 
+.contactForm .btn{
+    border: none; 
+    padding: 10px; 
+    width: 544px;
+    margin-top: 10px;
+    background-color: yellow; 
+    color: black;
+    font-family: 'Inter', sans-serif; 
+    font-weight: bold; 
+} 
+.contactSection{
+    background:  linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.685)),url("../images/aboutcompany.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 90px; 
+    display: flex; 
+    gap: 2%;
+    justify-content: space-around; 
+    padding: 30px;
+} 
+.contactOne{
+    color: white; 
+    display: grid; 
+    grid-template-columns: repeat(2,38%);
+    margin-top: 10px;
+} 
+.contactOne i{
+    font-size: 70px; 
+}
+.contactOne h2{
+    font-family: 'Inter', sans-serif; 
+    font-weight: bolder; 
+    width: 200px;
+} 
+.contactOne p{
+    font-family: 'Poppins', sans-serif; 
+    width: 200px;
+}
+.faqContent{
+    width: 95%; 
+    margin: auto; 
+} 
+.faqSection h4, .faqSection h1{
+    font-family: 'Inter', sans-serif; 
+    text-align: center; 
+    margin-top: 20px;
+}
+.faqSection h1{
+    font-size: 20px;
+} 
+.faqQuestion {
+    display: flex; 
+    justify-content: space-between; 
+    font-family: 'Poppins', sans-serif; 
+    padding: 20px;
+    font-size: 25px;
+    border: 1px solid grey;
+    margin-top: 30px;
+    margin-left: 25px; 
+    margin-right: 25px;
+} 
+.faqAnswer{
+    border: 1px solid grey; 
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    margin-left: 25px; 
+    margin-right: 25px;
+} 
+.footerContent{
+    width: 95%; 
+    margin: auto;  
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+.footerSection{
+    background-color: #212540; 
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+} 
+.footerOne h5, .footerTwo h5, .footerThree h5, .footerFour h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}  
+.footerOne img{
+    margin-top: 10px; 
+    color: white;
+}
+ 
+.footerOne p, .footerFour p{
+    font-family: 'Poppins', sans-serif;
+    width: 250px; 
+    font-size: 15px;
+    margin-top: 15px;
+} 
+.footerTwo ul li, .footerThree ul li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 15px;
+}  
+.footerFour input {
+    margin-top: 15px; 
+    width: 250px;
+    padding: 5px;
+} 
+.inputBox{
+    display: flex; 
+} 
+.inputBox .button{
+    background-color: yellow; 
+    color: black; 
+    width: 60px;
+    padding: 5px; 
+    margin-left: 5px; 
+} 
+.inputBox a{
+    text-decoration: none; 
+    color: black;
+}
+.copyRightsSection {
+    background-color: white; 
+    display: flex; 
+    justify-content: space-between; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: bolder;
+    padding: 10px; 
+    width: 95%; 
+    margin: auto;
+} 
+.copyRightsSection i{
+    margin-right: 2px;
+}  
+
+/*Code for mobile responsive*/
+@media screen and (max-width : 500px) {  
+    .headerSection img{
+        width: 50px;
+        margin-top: 10px;
+    }
+    .headerSection ul li{
+        font-size: 10px;
+    }  
+    .heroSection{
+        height: 80px;
+    }
+    .heroImage{
+        display: none; 
+    } 
+    .heroSection h2{
+        font-size: 18px; 
+        margin-left: 28px;
+    } 
+    .heroSection p{
+        font-size: 10px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }  
+    .faqSection h4{
+        font-size: 10px;
+    } 
+    .contactImage{
+        display: none; 
+    } 
+    .contactForm{
+        font-size: 15px;
+        margin-left: -15px;
+    }  
+    .contactForm p{
+        font-size: 13px;
+    } 
+    .contactForm input{
+        width: 318px;
+    } 
+    .contactForm .btn{
+        width: 350px;
+    }
+    .contactSection{
+        display: block;
+        font-size: 10px;
+        height: 210px;
+    } 
+    .contactOne i {
+        font-size: 50px;
+    }  
+    .faqQuestion{
+        font-size: 13px;
+    } 
+    .faqAnswer{
+        font-size: 12px; 
+    }
+    .footerContent{
+        display: block; 
+    } 
+    .footerTwo h5, .footerThree, .footerFour h5{
+        margin-top: 20px;
+    } 
+    .copyRightsSection{
+        font-size: 10px;
+        padding: 5px; 
+    } 
+} /*Code for mobile responsive Ends*/
+
+/*Code for tab responsive*/
+@media (min-width : 700px) and (max-width : 851px){
+    .contactImage img{
+        display: none; 
+    } 
+    .contactForm input{
+        width: 630px;
+    } 
+    .contactForm .btn{
+        width: 665px;
+        margin-top: 15px;
+    }
+    .contactOne{
+        margin-right: 10px;
+    } 
+    .contactOne i{
+        font-size: 40px;
+        margin-left: 10px;
+    } 
+    .contactTwo{
+        font-size: 10px;
+        margin-left: -25px;
+    }
+    .footerSection{
+        display: flex; 
+        flex-direction: column;
+    }  
+    .footerTwo h5, .footerThree h5, .footerFour h5{
+        margin-top: 25px;
+    } 
+    .copyRightsSection{
+        padding: 10px;
+    }
+}
